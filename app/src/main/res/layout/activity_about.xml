@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutusFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="746dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:src="@drawable/aboutlogo1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_r"
+                android:padding="18dp"
+                android:text="You Owe Me"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_r"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:text="Sharing expenses could be complicated and stressful, and it can become troublesome to track
+what you owe and what they owe you. Wouldn’t it be nice to have an easy and foolproof
+solution to this problem?"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_r"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:text="You Owe Me! solves this problem. We make it easy for people to share expenses with friends
+and family and stop stressing about “who owes who.”
+"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_r"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:text="Our mission is to reduce the stress and
+awkwardness that money places on our most important relationships. You Owe Me! can keep
+track of your shared expenses and balances with housemates, trips, groups, friends, and
+family. Have less stress when sharing expenses with You Owe Me!
+"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
